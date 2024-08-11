@@ -20,9 +20,9 @@ const Skills = () => {
         className="flex items-center mb-8 justify-center space-x-2"
       >
         <div className="bg-none border-2 border-yellow-500 rounded-full p-4 flex items-center justify-center transition-transform duration-700">
-          <FaCog className="text-xl md:text-3xl text-yellow-500 transition-transform duration-300 ease-in-out hover:rotate-180 hover:text-white hover:scale-150 cursor-pointer" />
+          <FaCog className="text-xl  text-yellow-500 transition-transform duration-300 ease-in-out hover:rotate-180 hover:text-white hover:scale-150 cursor-pointer" />
         </div>
-        <h2 className="text-4xl font-bebas tracking-wider text-yellow-500 text-center md:text-left hover:text-white">
+        <h2 className="text-3xl font-bebas tracking-wider text-yellow-500 text-center md:text-left hover:text-white">
           Skills
         </h2>
       </div>
@@ -38,7 +38,7 @@ const Skills = () => {
         data-aos="fade-up"
         data-aos-offset="200"
         data-aos-delay="400"
-        className="grid grid-cols-3 md:grid-cols-6 gap-6 items-center justify-center"
+        className="grid grid-cols-3 md:grid-cols-6 gap-8 items-center justify-center"
       >
         {SkillsData.map((skill, index) => (
           <SkillCard key={index} skill={skill} />
@@ -84,7 +84,7 @@ const SkillCard = ({ skill }) => {
       <img
         src={skill.imgsrc}
         alt={skill.text}
-        className="w-20 h-20 object-contain transition-transform duration-300"
+        className="w-14 h-14 object-contain transition-transform duration-300"
       />
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center opacity-0 transition-opacity duration-300 group-hover:opacity-100 backdrop-blur">
         <h3 className="text-xl font-semibold text-white font-bold">

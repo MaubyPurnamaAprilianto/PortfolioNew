@@ -25,18 +25,18 @@ const Contact = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-16">
+    <div className="container mx-auto px-4">
       <div
         data-aos="fade-up"
         data-aos-offset="200"
-        className="flex flex-col items-center mb-6 md:mb-8 w-full justify-center text-center"
+        className="flex items-center mb-6 md:mb-8 w-full justify-center"
       >
-        <div className="flex items-center mb-4 md:mb-6">
+        <div className="flex items-center mr-4">
           <div className="bg-none border-2 border-yellow-500 rounded-full p-4 flex items-center justify-center transition-transform duration-700">
-            <FaPhone className="text-xl md:text-3xl text-yellow-500 transition-transform duration-300 ease-in-out hover:rotate-180 hover:text-white hover:scale-180 cursor-pointer" />
+            <FaPhone className="text-xl text-yellow-500 transition-transform duration-300 ease-in-out hover:rotate-180 hover:text-white hover:scale-150  cursor-pointer" />
           </div>
         </div>
-        <h1 className="text-3xl md:text-4xl font-bebas tracking-wider text-yellow-500 transition duration-300 space-x-2">
+        <h1 className="text-3xl font-bebas tracking-wider text-yellow-500 transition duration-300 space-x-2">
           <span className="hover:text-white transition duration-300">Contact</span>
           <span className="hover:text-white transition duration-300">Us</span>
         </h1>

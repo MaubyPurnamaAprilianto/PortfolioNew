@@ -13,12 +13,12 @@ const ProjectList = () => {
     });
   }, []);
   return (
-    <div className="container mx-auto w-full min-h-screen mt-32 px-4 flex flex-col items-center justify-center">
+    <div className="container mx-auto px-10 w-full min-h-screen mt-32 px-4 flex flex-col items-center justify-center">
       <div className="flex items-center mb-8 justify-center space-x-2" data-aos="fade-up">
         <div className="bg-none border-2 border-yellow-500 rounded-full p-4 flex items-center justify-center transition-transform duration-700">
-          <FaCode className="text-xl md:text-3xl text-yellow-500 transition-transform duration-300 ease-in-out hover:rotate-180 hover:text-white hover:scale-150 cursor-pointer" />
+          <FaCode className="text-xl  text-yellow-500 transition-transform duration-300 ease-in-out hover:rotate-180 hover:text-white hover:scale-150 cursor-pointer" />
         </div>
-        <h2 className="text-4xl font-bebas tracking-wider text-yellow-500 text-center md:text-left hover:text-white">
+        <h2 className="text-3xl font-bebas tracking-wider text-yellow-500 text-center md:text-left hover:text-white">
           Projects
         </h2>
       </div>

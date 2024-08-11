@@ -56,10 +56,10 @@ const About = () => {
         >
           <div className="flex items-center mr-4">
             <div className="bg-none border-2 border-yellow-500 rounded-full p-4 flex items-center justify-center transition-transform duration-700">
-              <FaExclamation className="text-xl md:text-3xl text-yellow-500 transition-transform duration-300 ease-in-out hover:rotate-180 hover:text-white hover:scale-150 cursor-pointer" />
+              <FaExclamation className="text-xl  text-yellow-500 transition-transform duration-300 ease-in-out hover:rotate-180 hover:text-white hover:scale-150 cursor-pointer" />
             </div>
           </div>
-          <h1 className="text-4xl font-bebas tracking-wider text-yellow-500 text-center md:text-left transition duration-300 space-x-2">
+          <h1 className="text-3xl font-bebas tracking-wider text-yellow-500 text-center md:text-left transition duration-300 space-x-2">
             <span className="hover:text-white transition duration-300">
               About
             </span>
@@ -102,7 +102,7 @@ const About = () => {
       <div className="container mx-auto w-full h-screen mt-32 px-4">
         <Contact />
       </div>
-      <div className="mt-32 px-4 border-t border-gray-700">
+      <div className="h-auto w-full mt-32 px-4 border-t border-gray-700">
         <Footer />
       </div>
     </div>
