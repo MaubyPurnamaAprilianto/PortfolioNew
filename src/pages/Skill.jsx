@@ -87,7 +87,7 @@ const SkillCard = ({ skill }) => {
         className="w-14 h-14 object-contain transition-transform duration-300"
       />
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center opacity-0 transition-opacity duration-300 group-hover:opacity-100 backdrop-blur">
-        <h3 className="text-xl font-semibold text-white font-bold">
+        <h3 className="text-md font-semibold text-white">
           {skill.text}
         </h3>
       </div>
