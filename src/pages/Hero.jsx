@@ -77,7 +77,7 @@ const Hero = () => {
               onClick={handleButtonClick}
               className="text-2xl bg-transparent text-white border-2 border-yellow-500 w-28 h-28 rounded-full shadow-lg flex items-center justify-center hover:scale-110 hover:text-yellow-500 transition-transform duration-300"
             >
-              Lesgo
+              Lest go
             </button>
           </animated.div>
         )}
